@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-    char a, b;
+    int a, b;
     cin >> a >> b;
-    if ( a == '0' ) {
+    if ( a == 0 ) {
         if ( b >= 19 ) cout << "MAN";
         else cout << "BOY";
     }
