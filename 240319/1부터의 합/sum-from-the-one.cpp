@@ -4,7 +4,7 @@ int main() {
     int n;
     cin >> n;
     int cnt = 0;
-    for (int i=1; i<100; i++) {
+    for (int i=1; i<101; i++) {
         cnt+=i;
         if(cnt>=n) {
             cout << i;
