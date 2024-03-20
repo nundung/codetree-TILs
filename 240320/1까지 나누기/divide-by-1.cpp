@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    double n;
+    int n;
     cin >> n;
     for (int i=1; i<5000; i++) {
         n /= i;
